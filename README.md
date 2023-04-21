@@ -69,3 +69,77 @@ Here you have the option to turn it on
 Once we assign the IP address here and turn this port on.
 You can see that the cable now has the green triangles.
 Which means our connection is successful
+
+-------------------------
+192.168.1.1,
+192.168.1.2,
+192.168.1.3
+
+Now once all the computers are assigned the IP address
+we can now connect the switch with the router.
+Can you please tell me the process to do that?
+First we need to connect the router and switch using the
+copper straight through cable and the cable is connected
+to Gigabit ethernet port on both ends
+
+We now have a network of 2 Local Area Networks.
+It is called WAN. Wide Area Network
+
+We need to assign the IP address to the port on the router
+and turn that port On.
+Double click on the router and then go to config Tab.
+Here select the gigabit ethernet port 2 and then assign the
+IP address as 192.168.1.4 and check the on option.
+
+
+Once we do this we can see that all the triangles are now
+green which means that both of our LAN’s are connected
+now.
+----------------------------------------------------------------
+Now let’s perform a ping test to see whether we can ping
+the computer on the right LAn from the left LAN.
+Double click on any computer on the left LAN and then
+open the command prompt.
+First we will check the IP address of this computer.
+Can you tell me the command to do that?
+Very good.
+Let’s type ipconfig and press enter. This will show us the IP
+address of this computer.
+
+------------------
+We tried to ping other computers. But this is not working.
+This shows request time out.
+This happens when the computers are not connected with
+each other.
+
+---------------------
+
+When our computer connects with the internet.The first
+device it connects with is our router.
+Our router has an IP address which we also assigned
+here.
+But our computer doesn't know about this IP address of
+the router.
+They don’t know that this router exists. To overcome this
+problem we need to tell our computers about the router
+and it’s IP address.
+This is called the default gateway.This is the first device in
+the way to connect with the internet. Usually in the real
+world when you connect with your router. It will
+automatically assign the IP address and the default
+gateway.
+But since we are in a simulated environment. We have to
+do this manually.
+---------------------------
+
+Double click on the first computer on the left network and
+go to the IP configuration window.
+There is a tab named default gateway.
+In this write the IP address we assigned in the router.
+Which is 10.0.0.4
+Note: Default Gateway should be same as the IP
+address assigned to the router
+
+----------------------
+
+
