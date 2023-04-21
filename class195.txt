@@ -9,10 +9,8 @@ want to connect multiple switches together then we need a
 router.
 —————————————————————
 
-Which type of cable do we use to connect the switch and
-the computer?
-Very good!
-But instead of manually selecting the cable let’s click on
+
+ instead of manually selecting the cable let’s click on
 the automatic selection.
 This will choose the best cable according to the device and
 connect it to the appropriate port.
