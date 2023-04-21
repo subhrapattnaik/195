@@ -64,3 +64,8 @@ We need to turn that On.
 
 For that double click on the router and go to the config tab and then in the bottom left select the gigabit 0 port.
 Here you have the option to turn it on
+---------------------------------------
+
+Once we assign the IP address here and turn this port on.
+You can see that the cable now has the green triangles.
+Which means our connection is successful
